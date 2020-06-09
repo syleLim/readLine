@@ -1,10 +1,11 @@
 TARGET = readLine
-CC = GCC
+CC = gcc
 FLAG = -Wall -Wextra -Werror
 BUFFER = 16
+SRC = ./*.c
+HEADER = -I ./
 
-all :
+$(TARGET) : $(SRC)
+	$(CC) $(FLAG) $(HEADAER) $(SRC)
 
-clean :
-
-re :
+all : $(TARGET)

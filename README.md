@@ -18,7 +18,9 @@ Program for read file one line
 |---|---|
 |int`fd`| file descriptor got from `open()`|
 |char **`line`|read line of file|
+6. file is only compose of string, not binary, but if you want, you can apply binanry char
 <br><br>
+
 
 #### defualt form
 ```c

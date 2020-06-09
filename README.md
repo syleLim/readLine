@@ -10,6 +10,7 @@ Program for read file one line
 3. return code is below<br>
 
 |code|description|
+|:---|:---|
 |int `1`|read sucess|
 |int `0`|file end|
 |int `-1`|error happend|

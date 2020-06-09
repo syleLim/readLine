@@ -15,7 +15,7 @@ Program for read file one line
 4. no memory leak
 5. input is below
 |name|description|
-|---|---|
+|:---|:---|
 |int`fd`| file descriptor got from `open()`|
 |char **`line`|read line of file|
 6. file is only compose of string, not binary, but if you want, you can apply binanry char

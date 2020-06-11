@@ -6,6 +6,6 @@ SRC = ./*.c
 HEADER = -I ./
 
 $(TARGET) : $(SRC)
-	$(CC) $(FLAG) $(HEADAER) $(SRC)
+	$(CC) $(FLAG) -o $(TARGET) $(HEADAER) $(SRC)
 
 all : $(TARGET)
